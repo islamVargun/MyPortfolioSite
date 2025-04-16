@@ -9,14 +9,22 @@ const AnimatedNumbers = dynamic(() => import("react-animated-numbers"), {
   ssr: false,
 });
 
-const Listachieve = [
+type ArchiveItem = {
+  metric: string;
+  value: string;
+  postfix: string;
+  icon: IconType;
+  prefix?: string;
+};
+
+const Listachieve: ArchiveItem[] = [
   {
     metric: "Projeler",
     value: "10",
     postfix: "+",
     icon: FiActivity,
+    prefix: "", // veya "$"
   },
-
   {
     metric: "Yıl Deneyim",
     value: "2",
@@ -24,6 +32,7 @@ const Listachieve = [
     icon: FiClock,
   },
 ];
+
 
 const Archive = () => {
   return (
