@@ -5,7 +5,7 @@ Bu proje, kendi portföyümü tanıtmak amacıyla geliştirdiğim bir web sitesi
 
 ## 🌐 Canlı Demo
 
-🔗 [portfolio-nextjs14-website.vercel.app](https://my-portfolio-site-islamvarguns-projects.vercel.app/)
+🔗 [https://my-portfolio-site-islamvarguns-projects.vercel.app/](https://my-portfolio-site-islamvarguns-projects.vercel.app/)
 
 ## 🛠️ Kullanılan Teknolojiler
 
