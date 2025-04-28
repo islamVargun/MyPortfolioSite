@@ -5,7 +5,7 @@ Bu proje, kendi portföyümü tanıtmak amacıyla geliştirdiğim bir web sitesi
 
 ## 🌐 Canlı Demo
 
-🔗 [https://my-portfolio-site-islamvarguns-projects.vercel.app/](https://my-portfolio-site-islamvarguns-projects.vercel.app/)
+🔗 [https://www.islamvargun.com.tr/](https://www.islamvargun.com.tr/)
 
 ## 🛠️ Kullanılan Teknolojiler
 
