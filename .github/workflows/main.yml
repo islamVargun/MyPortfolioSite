@@ -1,0 +1,32 @@
+name: Build Next.js Site for Manual Deployment
+
+on:
+  push:
+    branches:
+      # Bu kısmı kendi ana branch adınıza göre güncelleyin (genellikle main veya master olur)
+      - main 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18' # Güncel ve stabil bir Node.js versiyonu
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build and Export
+        run: next build && next export
+
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: static-site-build
+          path: out
